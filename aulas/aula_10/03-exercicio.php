@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="_css/estilo.css">
-    <title>xxxxxx</title>
+    <title>xxxxx</title>
 </head>
 <body>
 <div>
@@ -13,15 +13,11 @@
         Curso Básico de PHP - Canal do YouTube "Curso em Vídeo" 
 </div>
 <div class = "div2">
+    <?php
+
     
-    <form method="get" action="01valor.php">
-        Valor: <input type="number" name="v">
-        <input type="submit" value="Calcular Raiz">
     
-    </form>
-
-
-
+    ?>
 </div>
 
 

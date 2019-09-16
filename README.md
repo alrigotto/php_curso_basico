@@ -1,3 +1,13 @@
-# php_curso_basico
-<h1> Curso de PHP básico do canal Curso em Vídeo no YouTube</h1>
+# Curso Básico de PHP
+## Curso de PHP básico do canal Curso em Vídeo no YouTube
+
+
+
+- Aula #09 - Condicional **if** / **elseif** / **else**
+
+- Aula #10 - Condicional **Switch**
+
+
+
+
 

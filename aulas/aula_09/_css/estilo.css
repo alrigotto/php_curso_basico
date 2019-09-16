@@ -39,16 +39,3 @@ body {
     word-wrap: break-word;
 }
 
-.botao {
-    color: white;
-    background-color: rgb(70, 70, 146);
-    height: 35px;
-    font-weight: normal;
-    font-family: Arial;
-    font-size: 20px;
-}
-
-.destaque {
-    color: #9c1a7c;
-    font-weight: bold;
-}

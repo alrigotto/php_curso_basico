@@ -7,6 +7,8 @@
 
 - Aula #10 - Condicional **Switch**
 
+- Aula #11 - Repetição **While**
+
 
 
 

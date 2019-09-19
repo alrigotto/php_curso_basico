@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="_css/estilo.css">
-    <title>Variáveis de variável</title>
+    <title>Exercicio 02</title>
 </head>
 <body>
 <div>
@@ -14,16 +14,29 @@
 </div>
 <div class = "div2">
     <?php
+    $i = 1;
+    while ($i <= 5) {
+        $v = "num" . $i;
+        echo $v;
+        $url = "v" . $i;
+        $$v = isset($_GET[$url]) ? $_GET[$url] : 0;
+        $i++;
+    }
+    $i = 1;
+    while ($i <= 5) {
+        $v = "num" . $i;
+        echo "Valor $i: " .  $$v . "<br>";
+        $i++;
+    }
 
-    $x = "abc";
-    $$x = "def";
-    //variavel de variavel é um recurso pouco utilizado, segue abaixo um exemplo.
-    echo "O conteúdo da variável X é $x";
-    echo "<br>A variável 'abc' criada recebeu o valor $abc";
+    
+
     
     
     
     ?>
+
+
 </div>
 
 

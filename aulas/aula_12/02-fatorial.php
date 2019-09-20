@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="_css/estilo.css">
-    <title>Contador Personalizado</title>
+    <title>Fatorial</title>
 </head>
 <body>
 <div>
@@ -14,26 +14,25 @@
 </div>
 <div class = "div2">
     <?php
-    
-    $ini = isset($_GET["ini"]) ? $_GET["ini"] : 0;
-    $fim = isset($_GET["fim"]) ? $_GET["fim"] : 10;
-    $inc = isset($_GET["inc"]) ? $_GET["inc"] : 0;
+    $v = isset($_GET["val"]) ? $_GET["val"] : 1;
+    echo "Calculando o fatorial de <span class='destaque'>$v</span>:";
 
-    if ($ini < $fim) {
-        while ($ini <= $fim) {
-        echo $ini . " ";
-        $ini += $inc;
-        }
-    } else {
-        while ($ini >= $fim) {
-            echo $ini . " ";
-            $ini -= $inc;
-        }    
-    }
+    $n = $v;
+
+
+    $fat = 1;
+    do {
+        $fat = $fat * $n;
+        $n -= 1; 
+    } while ($n >= 1);
+
+    $format = number_format($fat, 0, ',', '.');
+    
+    echo "<br><h1>$v! = $format</h1>";
+    
     
     ?>
-
-    <br><br>
+    
     <input type="button" value="Voltar" class="botao" onclick="history.back()">
 </div>
 

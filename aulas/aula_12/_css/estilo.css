@@ -42,10 +42,10 @@ body {
 .botao {
     color: white;
     background-color: rgb(70, 70, 146);
-    height: 35px;
+    height: 30px;
     font-weight: normal;
     font-family: Arial;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .destaque {
@@ -61,8 +61,8 @@ body {
 
 .opt {
     font-size: 20px;
-    /* height: 25px; */
+    height: 25px;
     color: black;
-    width: 40px;
+    width: 60px;
 }
 

@@ -14,14 +14,15 @@
 </div>
 <div class = "div2">
     <?php
+    //capturando os valores usando variáveis de variáveis
     $i = 1;
     while ($i <= 5) {
         $v = "num" . $i;
-        echo $v;
         $url = "v" . $i;
         $$v = isset($_GET[$url]) ? $_GET[$url] : 0;
         $i++;
     }
+    // Exibeindo os valores
     $i = 1;
     while ($i <= 5) {
         $v = "num" . $i;

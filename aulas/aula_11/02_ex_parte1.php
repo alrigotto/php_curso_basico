@@ -14,8 +14,9 @@
 </div>
 <div class = "div2">
     
-    <form method="get" action="ex_02_parte2.php">
+    <form method="get" action="02_ex_parte2.php">
         <?php
+        //Gerando varios inputs usando 'while' com codigo PHP
         $a = 1;
         while ($a <= 5) {
             echo " Valor $a: <input type='number' name='v$a' max='100' min='0' value='0'/><br>";

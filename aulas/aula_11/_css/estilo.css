@@ -55,7 +55,14 @@ body {
 
 .sel {
     font-size: 20px;
+    color: black;
+    width: 60px;
+}
+
+.opt {
+    font-size: 20px;
     /* height: 25px; */
     color: black;
+    width: 40px;
 }
 

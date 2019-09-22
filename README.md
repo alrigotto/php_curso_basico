@@ -12,3 +12,5 @@
 - Aula #12 - Repetição **do while**
 
 - Aula #13 - Repetição **for**
+
+- Aula #14 - Funções **function**

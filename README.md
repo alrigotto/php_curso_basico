@@ -1,5 +1,5 @@
 # Curso Básico de PHP
-## Curso de PHP básico do canal Curso em Vídeo no YouTube
+## Curso de PHP básico do canal **Curso em Vídeo no YouTube**
 
 
 
@@ -13,4 +13,8 @@
 
 - Aula #13 - Repetição **for**
 
-- Aula #14 - Funções **function**
+- Aula #14 - Rotinas (funções) **function comuns** e com **múltiplos parâmetros**
+
+- Aula #15 - Rotinas (funções) - Passagem por **valor** e **referência** / Funções em arquivos externos **include** ou **require**
+
+

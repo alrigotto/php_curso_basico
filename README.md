@@ -21,4 +21,9 @@
 
 - Aula #17 - Funções de manipulação de **String** em PHP (continuação).
 
+- Aula #18 - **Vetores** e **Matrizes**- Parte 1.
+
+- Aula #19 - **Vetores** e **Matrizes**- Parte 2.
+
+
 

@@ -19,7 +19,7 @@
         <?php
         //para compor matrizes em PHP usa-se array dentro de array.
         $m = array(
-            array(6, 4), //"linha 0"
+            array(6, 5), //"linha 0"
             array(4, 9), //"linha 1"
             array(3, 2)  //"linha 2"
         );

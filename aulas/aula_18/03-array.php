@@ -16,14 +16,14 @@
     <div class="div2">
         <pre>
         <?php
-        //compondo uma array por associação, pode-se colocar o indice... 
-        // ...que quiser em qualquer ordem e mesmo pulando indices. 
+        //compondo uma array por associação, pode-se colocar o índice... 
+        // ...que quiser em qualquer ordem e mesmo pulando índices. 
         $v = array(3 => 5,
                                 1 => 9,
                                 0 => 8,
                                 7 => 7);
         $v[] = 'E'; // acrescenta dinamicamente um elemento.
-        unset($v[0]); //desalocando (deletando) o indice '0'.
+        unset($v[0]); //desalocando (deletando) o índice '0'.
         print_r($v);
         
         ?>
